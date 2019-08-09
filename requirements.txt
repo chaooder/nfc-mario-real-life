@@ -1,0 +1,4 @@
+nfcpy==0.10.2
+MySQL-python==1.2.5
+mpg123==0.4
+RPi.GPIO==0.6.3

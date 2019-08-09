@@ -22,6 +22,7 @@ Start the Application by running `python app.py` (you can daemonize it with `noh
 * Free up UART - https://learn.adafruit.com/adafruit-nfc-rfid-on-raspberry-pi/freeing-uart-on-the-pi
 * Playing sounds with Raspberri Pi - https://learn.adafruit.com/downloads/pdf/playing-sounds-and-using-buttons-with-raspberry-pi.pdf
 * Raspi GPIO usage - https://www.raspberrypi.org/documentation/usage/gpio/
+* MP3 files - https://freesound.org
 
 ## See also
 * NFC Tag Types - https://www.dummies.com/consumer-electronics/5-nfc-tag-types/

@@ -1,5 +1,9 @@
 # Real Life Super Mario Game
-Real life Super Mario game with NFC & Raspberry Pi 
+Real life Super Mario game with NFC & Raspberry Pi.
+How it works: 
+1) Raspberry Pi, with PN532 NFC Board, can be kept in "bricks" in the game. The python code here will be running as a service in the raspberry pi, the latter powered by a battery or nearby power source.
+2) Players will be given wearables with NFC Tags (Type 2 typically), which they can tap on the PN532 in the "bricks" to gain "coins".
+3) Raspberry Pi can be fitted with speaker & LEDs (to provide audio/visual feedback upon player interaction).
 
 ## Getting Started
 
@@ -18,6 +22,10 @@ Start the Application by running `python app.py` (you can daemonize it with `noh
 * Free up UART - https://learn.adafruit.com/adafruit-nfc-rfid-on-raspberry-pi/freeing-uart-on-the-pi
 * Playing sounds with Raspberri Pi - https://learn.adafruit.com/downloads/pdf/playing-sounds-and-using-buttons-with-raspberry-pi.pdf
 * Raspi GPIO usage - https://www.raspberrypi.org/documentation/usage/gpio/
+
+## See also
+* NFC Tag Types - https://www.dummies.com/consumer-electronics/5-nfc-tag-types/
+* PN532 - https://www.adafruit.com/product/364#technical-details-anchor
 
 ## Built With
 * [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) - Raspbian Jessie OS

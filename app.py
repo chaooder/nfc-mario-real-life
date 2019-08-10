@@ -17,7 +17,7 @@ import nfc
 import nfc.ndef
 import nfc.clf
 
-from nfc_super_mario_real_life import db_util, sound_util, led_util
+from nfc_mario_real_life import db_util, sound_util, led_util
 
 ### Configs ###
 COIN_SOUND = 'coin'

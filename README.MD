@@ -1,5 +1,5 @@
-# Real Life Super Mario Game
-Real life Super Mario game with NFC & Raspberry Pi.
+# Real Life Mario Game
+Real life Mario game with NFC & Raspberry Pi.
 How it works: 
 1) Raspberry Pi, with PN532 NFC Board, can be kept in "bricks" in the game. The python code here will be running as a service in the raspberry pi, the latter powered by a battery or nearby power source.
 2) Players will be given wearables with NFC Tags (Type 2 typically), which they can tap on the PN532 in the "bricks" to gain "coins".

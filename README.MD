@@ -13,6 +13,7 @@ See `notes/hardware.docx` for hardware and Raspberry Pi setup. This needs to be 
 ### Software Installation
 * Install raspbian on raspberry pi - https://www.raspberrypi.org/documentation/installation/installing-images/windows.md
 * Install required pip packages on raspberry pi, run `pip install -r requirements.txt`.
+* Setup a MySQL server for the python program to connect to - https://dev.mysql.com/doc/mysql-installation-excerpt/5.5/en/installing.html
 
 ### Running the Application
 Start the Application by running `python app.py` (you can daemonize it with `nohup python app.py &`).
